@@ -28,7 +28,7 @@ public class LoadSceneAsync : MonoBehaviour
 
         if (waitForLoad == true) //kun painettu spacea
         {
-            timer += Time.deltaTime;
+            timer += Time.deltaTime; //timer lähtee nollasta etenemään
             
             //Simuloidaan "raskasta peliä, jossa lataus kestäisi n. 5 sekuntia:
             //if (timer > waitTime) //5 sekuntia on kulunut
